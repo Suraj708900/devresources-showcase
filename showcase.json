@@ -75,7 +75,7 @@
   {
    "name": "Lovable",
    "logo": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=128",
-   "cover": "https://image.thum.io/get/width/800/crop/500/https://lovable.dev",
+   "cover": "",
    "description": "Polished full-stack apps from chat, with Supabase built in. Best pick for non-coders shipping an MVP.",
    "link": "https://lovable.dev",
    "price": "Free tier; see site",
