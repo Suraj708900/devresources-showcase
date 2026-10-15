@@ -1,0 +1,485 @@
+{
+ "updated": "2026-10-15",
+ "items": [
+  {
+   "name": "Claude Code",
+   "logo": "https://www.google.com/s2/favicons?domain=www.claude.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.claude.com/product/claude-code",
+   "description": "Terminal-first agent that handles multi-file changes and long tasks well. Best if you're comfortable in a CLI.",
+   "link": "https://www.claude.com/product/claude-code",
+   "price": "Included with Claude paid plans; see site",
+   "category": "Coding agents",
+   "tags": [
+    "Coding agents",
+    "agent",
+    "cli"
+   ]
+  },
+  {
+   "name": "Cursor",
+   "logo": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://cursor.com",
+   "description": "VS Code-style editor with strong agent mode and tab completion. The easiest daily driver for most builders.",
+   "link": "https://cursor.com",
+   "price": "Free tier; paid plans, see site",
+   "category": "Coding agents",
+   "tags": [
+    "Coding agents",
+    "ide",
+    "free-tier",
+    "Best for vibe coding"
+   ]
+  },
+  {
+   "name": "GitHub Copilot",
+   "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://github.com/features/copilot",
+   "description": "Works in almost every editor and now ships a cloud coding agent. Safe default if your code is on GitHub.",
+   "link": "https://github.com/features/copilot",
+   "price": "Free tier; paid plans, see site",
+   "category": "Coding agents",
+   "tags": [
+    "Coding agents",
+    "ide",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "OpenAI Codex",
+   "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://openai.com/codex/",
+   "description": "OpenAI's coding agent across CLI, IDE and cloud. Good if you already pay for ChatGPT.",
+   "link": "https://openai.com/codex/",
+   "price": "Included with ChatGPT plans; see site",
+   "category": "Coding agents",
+   "tags": [
+    "Coding agents",
+    "agent",
+    "cli"
+   ]
+  },
+  {
+   "name": "Windsurf",
+   "logo": "https://www.google.com/s2/favicons?domain=windsurf.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://windsurf.com",
+   "description": "Agentic IDE with a capable assistant (Cascade). A solid Cursor alternative.",
+   "link": "https://windsurf.com",
+   "price": "Free tier; see site",
+   "category": "Coding agents",
+   "tags": [
+    "Coding agents",
+    "ide",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Lovable",
+   "logo": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://lovable.dev",
+   "description": "Polished full-stack apps from chat, with Supabase built in. Best pick for non-coders shipping an MVP.",
+   "link": "https://lovable.dev",
+   "price": "Free tier; see site",
+   "category": "AI app builders",
+   "tags": [
+    "AI app builders",
+    "no-code",
+    "free-tier",
+    "Best for vibe coding"
+   ]
+  },
+  {
+   "name": "Bolt",
+   "logo": "https://www.google.com/s2/favicons?domain=bolt.new&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://bolt.new",
+   "description": "Fast in-browser builder with a real dev environment. Great for quick prototypes you can export.",
+   "link": "https://bolt.new",
+   "price": "Free tier; see site",
+   "category": "AI app builders",
+   "tags": [
+    "AI app builders",
+    "no-code",
+    "free-tier",
+    "Best for vibe coding"
+   ]
+  },
+  {
+   "name": "Replit",
+   "logo": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://replit.com",
+   "description": "Agent plus IDE plus hosting in one place. Easiest path from idea to a deployed URL.",
+   "link": "https://replit.com",
+   "price": "Free tier; see site",
+   "category": "AI app builders",
+   "tags": [
+    "AI app builders",
+    "hosting",
+    "free-tier",
+    "Best for vibe coding"
+   ]
+  },
+  {
+   "name": "v0",
+   "logo": "https://www.google.com/s2/favicons?domain=v0.app&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://v0.app",
+   "description": "Best-in-class React/Next.js UI generation that deploys to Vercel. Strongest for front-ends.",
+   "link": "https://v0.app",
+   "price": "Free tier; see site",
+   "category": "AI app builders",
+   "tags": [
+    "AI app builders",
+    "frontend",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Supabase",
+   "logo": "https://www.google.com/s2/favicons?domain=supabase.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://supabase.com",
+   "description": "Postgres plus auth, storage and realtime. The default backend for vibe-coded apps.",
+   "link": "https://supabase.com",
+   "price": "Free tier; see site",
+   "category": "Databases & backends",
+   "tags": [
+    "Databases & backends",
+    "postgres",
+    "open-source",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Firebase",
+   "logo": "https://www.google.com/s2/favicons?domain=firebase.google.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://firebase.google.com",
+   "description": "Google's mature backend with great mobile SDKs. NoSQL data model takes some getting used to.",
+   "link": "https://firebase.google.com",
+   "price": "Free Spark plan; pay-as-you-go",
+   "category": "Databases & backends",
+   "tags": [
+    "Databases & backends",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Neon",
+   "logo": "https://www.google.com/s2/favicons?domain=neon.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://neon.com",
+   "description": "Serverless Postgres with branching. Ideal when you just need a database, not a full backend.",
+   "link": "https://neon.com",
+   "price": "Free tier; see site",
+   "category": "Databases & backends",
+   "tags": [
+    "Databases & backends",
+    "postgres",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Convex",
+   "logo": "https://www.google.com/s2/favicons?domain=www.convex.dev&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.convex.dev",
+   "description": "Reactive TypeScript backend that AI agents write well. Great for realtime apps.",
+   "link": "https://www.convex.dev",
+   "price": "Free tier; see site",
+   "category": "Databases & backends",
+   "tags": [
+    "Databases & backends",
+    "open-source",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Vercel",
+   "logo": "https://www.google.com/s2/favicons?domain=vercel.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://vercel.com",
+   "description": "Best home for Next.js, with instant preview deploys. Watch usage costs at scale.",
+   "link": "https://vercel.com",
+   "price": "Free Hobby plan; see site",
+   "category": "Hosting & deploy",
+   "tags": [
+    "Hosting & deploy",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Netlify",
+   "logo": "https://www.google.com/s2/favicons?domain=www.netlify.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.netlify.com",
+   "description": "Simple static and Jamstack hosting with built-in forms and functions.",
+   "link": "https://www.netlify.com",
+   "price": "Free plan; see site",
+   "category": "Hosting & deploy",
+   "tags": [
+    "Hosting & deploy",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Cloudflare Pages",
+   "logo": "https://www.google.com/s2/favicons?domain=pages.cloudflare.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://pages.cloudflare.com",
+   "description": "Fast global edge with a generous free tier. Pairs well with Workers.",
+   "link": "https://pages.cloudflare.com",
+   "price": "Free tier; see site",
+   "category": "Hosting & deploy",
+   "tags": [
+    "Hosting & deploy",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Render",
+   "logo": "https://www.google.com/s2/favicons?domain=render.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://render.com",
+   "description": "Easy home for backends, workers and databases, not just static sites.",
+   "link": "https://render.com",
+   "price": "Free tier; see site",
+   "category": "Hosting & deploy",
+   "tags": [
+    "Hosting & deploy",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "OpenAI API",
+   "logo": "https://www.google.com/s2/favicons?domain=platform.openai.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://platform.openai.com",
+   "description": "Broadest ecosystem and tooling. A safe first choice for most apps.",
+   "link": "https://platform.openai.com",
+   "price": "Pay per token; see site",
+   "category": "AI APIs & models",
+   "tags": [
+    "AI APIs & models",
+    "api"
+   ]
+  },
+  {
+   "name": "Anthropic API",
+   "logo": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.anthropic.com/api",
+   "description": "Claude models are top-tier for coding and agents. Strong pick for tool use.",
+   "link": "https://www.anthropic.com/api",
+   "price": "Pay per token; see site",
+   "category": "AI APIs & models",
+   "tags": [
+    "AI APIs & models",
+    "api"
+   ]
+  },
+  {
+   "name": "Google Gemini API",
+   "logo": "https://www.google.com/s2/favicons?domain=ai.google.dev&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://ai.google.dev",
+   "description": "Long context with a free tier in AI Studio. Great value for prototyping.",
+   "link": "https://ai.google.dev",
+   "price": "Free tier; paid per token",
+   "category": "AI APIs & models",
+   "tags": [
+    "AI APIs & models",
+    "api",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "OpenRouter",
+   "logo": "https://www.google.com/s2/favicons?domain=openrouter.ai&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://openrouter.ai",
+   "description": "One API key for hundreds of models. Ideal for comparing models or adding fallbacks.",
+   "link": "https://openrouter.ai",
+   "price": "Pay per token; see site",
+   "category": "AI APIs & models",
+   "tags": [
+    "AI APIs & models",
+    "api",
+    "router"
+   ]
+  },
+  {
+   "name": "Groq",
+   "logo": "https://www.google.com/s2/favicons?domain=groq.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://groq.com",
+   "description": "Very fast inference for open models. Use it when latency matters.",
+   "link": "https://groq.com",
+   "price": "Free tier; see site",
+   "category": "AI APIs & models",
+   "tags": [
+    "AI APIs & models",
+    "api",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "OpenAI Agents SDK",
+   "logo": "https://www.google.com/s2/favicons?domain=openai.github.io&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://openai.github.io/openai-agents-python/",
+   "description": "Lightweight, well-documented primitives for tools, handoffs and tracing.",
+   "link": "https://openai.github.io/openai-agents-python/",
+   "price": "Free, open-source",
+   "category": "Agent frameworks",
+   "tags": [
+    "Agent frameworks",
+    "open-source",
+    "python"
+   ]
+  },
+  {
+   "name": "LangGraph",
+   "logo": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.langchain.com/langgraph",
+   "description": "Stateful, controllable agent graphs. More setup, but more control.",
+   "link": "https://www.langchain.com/langgraph",
+   "price": "Open-source; paid platform, see site",
+   "category": "Agent frameworks",
+   "tags": [
+    "Agent frameworks",
+    "open-source"
+   ]
+  },
+  {
+   "name": "Vercel AI SDK",
+   "logo": "https://www.google.com/s2/favicons?domain=ai-sdk.dev&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://ai-sdk.dev",
+   "description": "The TypeScript default for streaming chat and agents in web apps.",
+   "link": "https://ai-sdk.dev",
+   "price": "Free, open-source",
+   "category": "Agent frameworks",
+   "tags": [
+    "Agent frameworks",
+    "open-source",
+    "typescript"
+   ]
+  },
+  {
+   "name": "CrewAI",
+   "logo": "https://www.google.com/s2/favicons?domain=www.crewai.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.crewai.com",
+   "description": "Quick multi-agent 'crews' with roles. Easy to start with.",
+   "link": "https://www.crewai.com",
+   "price": "Open-source; paid platform, see site",
+   "category": "Agent frameworks",
+   "tags": [
+    "Agent frameworks",
+    "open-source",
+    "python"
+   ]
+  },
+  {
+   "name": "n8n",
+   "logo": "https://www.google.com/s2/favicons?domain=n8n.io&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://n8n.io",
+   "description": "Visual workflow automation with AI agent nodes, and you can self-host it.",
+   "link": "https://n8n.io",
+   "price": "Self-host free; cloud, see site",
+   "category": "Agent frameworks",
+   "tags": [
+    "Agent frameworks",
+    "no-code",
+    "open-source"
+   ]
+  },
+  {
+   "name": "Runway",
+   "logo": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://runwayml.com",
+   "description": "Pro-grade generation and editing tools. The creator favourite.",
+   "link": "https://runwayml.com",
+   "price": "Free tier; see site",
+   "category": "Video",
+   "tags": [
+    "Video",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "Google Veo (Flow)",
+   "logo": "https://www.google.com/s2/favicons?domain=labs.google&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://labs.google/flow/about",
+   "description": "High-quality clips with native audio. Access depends on your Google AI plan.",
+   "link": "https://labs.google/flow/about",
+   "price": "See site",
+   "category": "Video",
+   "tags": [
+    "Video"
+   ]
+  },
+  {
+   "name": "Kling AI",
+   "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://klingai.com",
+   "description": "Strong motion quality at a good price for short clips.",
+   "link": "https://klingai.com",
+   "price": "Free credits; see site",
+   "category": "Video",
+   "tags": [
+    "Video",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "HeyGen",
+   "logo": "https://www.google.com/s2/favicons?domain=www.heygen.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://www.heygen.com",
+   "description": "Best for talking-avatar explainers and translated videos.",
+   "link": "https://www.heygen.com",
+   "price": "Free tier; see site",
+   "category": "Video",
+   "tags": [
+    "Video",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "ElevenLabs",
+   "logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://elevenlabs.io",
+   "description": "The most natural TTS and voice cloning, plus a voice-agent platform.",
+   "link": "https://elevenlabs.io",
+   "price": "Free tier; see site",
+   "category": "Voice",
+   "tags": [
+    "Voice",
+    "api",
+    "free-tier"
+   ]
+  },
+  {
+   "name": "OpenAI Realtime API",
+   "logo": "https://www.google.com/s2/favicons?domain=platform.openai.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://platform.openai.com/docs/guides/realtime",
+   "description": "Low-latency speech-to-speech for building voice agents.",
+   "link": "https://platform.openai.com/docs/guides/realtime",
+   "price": "Pay per use; see site",
+   "category": "Voice",
+   "tags": [
+    "Voice",
+    "api"
+   ]
+  },
+  {
+   "name": "Vapi",
+   "logo": "https://www.google.com/s2/favicons?domain=vapi.ai&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://vapi.ai",
+   "description": "Developer platform to ship phone and voice agents quickly.",
+   "link": "https://vapi.ai",
+   "price": "See site",
+   "category": "Voice",
+   "tags": [
+    "Voice",
+    "api"
+   ]
+  },
+  {
+   "name": "Deepgram",
+   "logo": "https://www.google.com/s2/favicons?domain=deepgram.com&sz=128",
+   "cover": "https://image.thum.io/get/width/800/crop/500/https://deepgram.com",
+   "description": "Fast, accurate speech-to-text and TTS APIs.",
+   "link": "https://deepgram.com",
+   "price": "Free credits; see site",
+   "category": "Voice",
+   "tags": [
+    "Voice",
+    "api",
+    "free-tier"
+   ]
+  }
+ ]
+}
