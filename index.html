@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DevResources Showcase · AI tool logos &amp; designs</title><meta name="description" content="A portfolio-style gallery of AI tools for builders: logos, designs and what each tool is best for.">
 <meta property="og:title" content="DevResources Showcase"><meta property="og:description" content="Portfolio-style gallery of AI tools for builders."><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://www.google.com"><style>
+<link rel="preconnect" href="https://www.google.com"><link rel="preconnect" href="https://image.thum.io"><link rel="canonical" href="https://devresources-showcase.vercel.app/"><style>
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#07080c;color:#eceef4}
 a{color:#9db8ff}.wrap{max-width:1240px;margin:auto;padding:0 20px}
 header{padding:56px 0 24px;background:radial-gradient(900px 400px at 20% -10%,#3b2a8a55,transparent),radial-gradient(700px 300px at 90% 0,#0fb5a455,transparent)}
@@ -26,7 +26,7 @@ footer{color:#7a8197;font-size:13px;text-align:center;padding:40px 20px}
 .feed-card{background:#10131c;border:1px solid #1c2130;border-radius:14px;padding:16px;display:flex;flex-direction:column}.feed-card p{color:#c3c8d6;font-size:14px;flex:1}.feed-card h3{font-size:16px}
 .feed-top{display:flex;gap:10px;align-items:center}.feed-top img,.feed-av{width:40px;height:40px;border-radius:50%;background:#fff;object-fit:contain}.feed-av{display:grid;place-items:center;background:linear-gradient(135deg,#7c5cff,#20d3c2);color:#fff;font-weight:800;font-size:13px}
 .feed-act{display:flex;justify-content:space-between;border-top:1px solid #1c2130;padding-top:10px;font-size:13px}.feed-share{background:#0a66c2;color:#fff!important;text-decoration:none;padding:4px 10px;border-radius:14px}
-</style></head><body>
+.shr{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px;font-size:13px}.shr a{background:#1a1f2e;border-radius:999px;padding:4px 12px;text-decoration:none;color:#c9cede}</style></head><body>
 <header><div class="wrap"><div class="top"><span class="brand">◆ DevResources Showcase</span><a class="btn" href="mailto:kamdevsuraj03@gmail.com?subject=Showcase%20submission&body=Name%3A%0ALink%3A%0ALogo%20URL%3A%0ACover%20image%20URL%3A%0AOne-line%20description%3A%0ATags%3A">Submit your design</a></div>
 <h1>Logos &amp; designs of the AI builder stack</h1><p class="sub">A portfolio-style gallery of the tools ranked on <a href="https://vibestack-rankings.vercel.app">VibeStack Rankings</a>. Click any card for details.</p>
 <div class="ctl"><input id="q" placeholder="Search name, tag or description…" aria-label="Search"></div><div class="chips" id="chips"></div></div></header>
@@ -38,14 +38,15 @@ const H=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt
 let items=[],cat='All';const $=i=>document.getElementById(i);
 const cover=t=>`<div class="cv">${t.cover?`<img class="c" src="${H(t.cover)}" alt="${H(t.name)} website" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('img'),{className:'bl',src:'${H(t.logo)}',alt:''}))">`:`<img class="bl" src="${H(t.logo)}" alt="">`}</div>`;
 fetch('showcase.json').then(r=>r.json()).then(d=>{items=d.items;
- const cats=['All',...new Set(items.map(i=>i.category))];$('chips').innerHTML=cats.map(c=>`<button class="chip${c==='All'?' on':''}" data-c="${H(c)}">${H(c)}</button>`).join('');draw()});
+ const cats=['All',...new Set(items.map(i=>i.category))];$('chips').innerHTML=cats.map(c=>`<button class="chip${c==='All'?' on':''}" data-c="${H(c)}">${H(c)}</button>`).join('');draw();if(location.hash)openM(decodeURIComponent(location.hash.slice(1)))});
 $('chips').onclick=e=>{if(!e.target.dataset.c)return;cat=e.target.dataset.c;document.querySelectorAll('.chip').forEach(b=>b.classList.toggle('on',b===e.target));draw()};
 $('q').oninput=draw;
 function draw(){const q=$('q').value.toLowerCase();const l=items.filter(t=>(cat==='All'||t.tags.includes(cat))&&(!q||(t.name+' '+t.description+' '+t.tags.join(' ')).toLowerCase().includes(q)));
  $('cnt').textContent=l.length+' of '+items.length+' showcased';
- $('g').innerHTML=l.map(t=>`<div class="it" tabindex="0" data-n="${H(t.name)}">${cover(t)}<div class="ov">${H(t.description)}</div><div class="meta"><img src="${H(t.logo)}" alt="" loading="lazy"><div><b>${H(t.name)}</b><span>${H(t.category)}</span></div></div></div>`).join('')||'<p>No matches.</p>'}
-function openM(n){const t=items.find(i=>i.name===n);if(!t)return;
- $('md').innerHTML=`<button class="x" onclick="dlg.close()" aria-label="Close">×</button>${cover(t)}<div class="mb"><div class="meta" style="padding:0"><img src="${H(t.logo)}" alt=""><div><b style="font-size:22px">${H(t.name)}</b><span>${H(t.category)}</span></div></div><p>${H(t.description)}</p>${t.price?`<p class="sub">Pricing: ${H(t.price)}</p>`:''}<div>${t.tags.map(x=>`<span class="tg">${H(x)}</span>`).join('')}</div><p><a class="btn" href="${H(t.link)}" target="_blank" rel="noopener">Visit ${H(t.name)} ↗</a></p></div>`;$('dlg').showModal()}
+ $('g').innerHTML=l.map(t=>`<div class="it" tabindex="0" data-n="${H(t.name)}">${cover(t)}<div class="ov">${H(t.description)}</div><div class="meta"><img src="${H(t.logo)}" alt="" loading="lazy" decoding="async" width="36" height="36"><div><b>${H(t.name)}</b><span>${H(t.category)}</span></div></div></div>`).join('')||'<p>No matches.</p>'}
+const shr=t=>{const u=encodeURIComponent(location.origin+'/#'+encodeURIComponent(t.name)),x=encodeURIComponent(t.name+' on DevResources Showcase');return `<div class="shr"><span class="sub">Share:</span> <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=${u}&text=${x}">X</a> <a target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=${u}">LinkedIn</a> <a target="_blank" rel="noopener" href="https://wa.me/?text=${x}%20${u}">WhatsApp</a> <a href="#" onclick="navigator.clipboard.writeText(decodeURIComponent('${u}'));this.textContent='Copied ✓';return false">Copy link</a></div>`};
+function openM(n){history.replaceState(null,'','#'+encodeURIComponent(n));const t=items.find(i=>i.name===n);if(!t)return;
+ $('md').innerHTML=`<button class="x" onclick="dlg.close()" aria-label="Close">×</button>${cover(t)}<div class="mb"><div class="meta" style="padding:0"><img src="${H(t.logo)}" alt=""><div><b style="font-size:22px">${H(t.name)}</b><span>${H(t.category)}</span></div></div><p>${H(t.description)}</p>${t.price?`<p class="sub">Pricing: ${H(t.price)}</p>`:''}<div>${t.tags.map(x=>`<span class="tg">${H(x)}</span>`).join('')}</div><p><a class="btn" href="${H(t.link)}" target="_blank" rel="noopener">Visit ${H(t.name)} ↗</a></p>${shr(t)}</div>`;$('dlg').showModal()}
 $('g').onclick=e=>{const c=e.target.closest('.it');if(c)openM(c.dataset.n)};$('g').onkeydown=e=>{if(e.key==='Enter'){const c=e.target.closest('.it');if(c)openM(c.dataset.n)}};
-$('dlg').onclick=e=>{if(e.target.id==='dlg')$('dlg').close()};
-</script><script src="/feed.js" defer></script></body></html>
+$('dlg').onclick=e=>{if(e.target.id==='dlg')$('dlg').close()};$('dlg').addEventListener('close',()=>history.replaceState(null,'',location.pathname));
+</script><script src="/feed.js" defer></script><script defer src="/_vercel/insights/script.js"></script><script defer src="/_vercel/speed-insights/script.js"></script></body></html>
